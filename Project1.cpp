@@ -40,7 +40,6 @@ int main()
 }
 void Line(int x, char sign, int color, bool line)
 {
-
     HANDLE h = GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleTextAttribute(h, color);
     if (line)
